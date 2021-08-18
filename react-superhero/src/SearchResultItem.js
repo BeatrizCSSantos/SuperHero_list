@@ -1,22 +1,25 @@
 import React from 'react';
 
-function SearchResultItem (props) {
-    return (
-        <div className="search-results">
-        <div className="left">
-            <img src="https://www.superherodb.com/pictures2/portraits/10/100/10441.jpg" alt="super pic"></img>
+function SearchResultItem(props) {
+  const {data} = props;
 
+  console.log('data', data);
+  return (
+    <div className="search-result">
+      <div className="left">
+        <img src={data.image.url} alt="super pic" />
+      </div>
+      <div className="right">
+        <h1>{data.name}</h1>
+        <span style={{ color:'gray', marginBottom: 5 }}>{data.biography['full-name']}</span>
+        <div className="stats">
+          <div>strength: {data.powerstats.strength}</div>
+          <div>speed: {data.powerstats.speed}</div>
+          <div>power: {data.powerstats.power}</div>
         </div>
-        <div className="right">
-            <h1>batman beyond</h1>
-            <div className="stats">
-                <div>Strength:26</div>
-                <div>Strength:26</div>
-                <div>Strength:26</div>
-             </div>
-        </div>
+      </div>
     </div>
-    );
+  );
 }
 
 export default SearchResultItem;
