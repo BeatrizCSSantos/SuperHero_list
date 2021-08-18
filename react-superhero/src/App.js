@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import SearchBar from './SearchBar';
 import SearchResults from './SearchResults';
 
+
 function App() {
   const [searchText, setSearchText] = useState('');
   const [superheroData, setSuperheroData] = useState([]);
@@ -29,7 +30,10 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
+      
+      <Navbar>
+      <link href="https://allfont.net/allfont.css?fonts=badaboom-bb" rel="stylesheet" type="text/css" />
+      </Navbar>
       <div className="main">
         <SearchBar searchText={searchText} handleChange={handleChange} />
         <SearchResults superheroData={superheroData} />
