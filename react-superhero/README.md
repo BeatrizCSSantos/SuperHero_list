@@ -8,4 +8,4 @@
 
 *Primary colors Super Heroes - https://splashpages.wordpress.com/2018/01/14/o-design-dos-super-herois-identidade-cores-e-uniformes/
 
-<img align="center" height="100%" width="100%" src="./react-superhero/public/herolist.jpeg" alt="prtscr">
+<img align="center" height="100%" width="100%" src="./public/herolist.jpeg" alt="prtscr">
