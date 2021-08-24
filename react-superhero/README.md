@@ -8,4 +8,10 @@
 
 *Primary colors Super Heroes - https://splashpages.wordpress.com/2018/01/14/o-design-dos-super-herois-identidade-cores-e-uniformes/
 
-<img align="center" height="100%" width="100%" src="./public/herolist.jpeg" alt="prtscr">
+*Modal - https://www.npmjs.com/package/react-modal
+
+$ npm install --save react-modal
+$ yarn add react-modal
+
+<img align="center" height="100%" width="100%" src="./public/super.jpeg" alt="prtscr">
+<img align="center" height="100%" width="100%" src="./public/hero.jpeg" alt="prtscr">
