@@ -10,8 +10,6 @@
 
 *Modal - https://www.npmjs.com/package/react-modal
 
-$ npm install --save react-modal
-$ yarn add react-modal
 
-<img align="center" height="100%" width="100%" src="./public/super.jpeg" alt="prtscr">
-<img align="center" height="100%" width="100%" src="./public/hero.jpeg" alt="prtscr">
+<img align="center" height="50%" width="50%" src="./public/hero.jpeg" alt="prtscr">
+<img align="center" height="50%" width="50%" src="./public/super.jpeg" alt="prtscr">
